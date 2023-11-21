@@ -14,6 +14,14 @@ let theMessage = "Kathy loves Larry";
 aliceSays = theMessage;
 bobSays = aliceSays;
 carolSays = bobSays;
+danSays = CarolSays;
+ellieSays = danSays;
+frankSays = ellieSays;
+gregSays = frankSays;
+harrySays = gregSays;
+ivySays = harrySays;
+jackSays = ivySays;
+
 
 
 // call setNames from 'messages.js'
