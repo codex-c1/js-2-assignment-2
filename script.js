@@ -5,7 +5,7 @@
 // Declaring with 'var' will make them global
 // variables.
 
-var aliceSays, bobSays, CarolSays, danSays, ellieSays, frankSays, harrySays, ivySays, jackSays;
+var aliceSays, bobSays, carolSays, danSays, ellieSays, frankSays, harrySays, ivySays, jackSays;
 
 
 // this variable is set to a string.
@@ -14,16 +14,13 @@ let theMessage = "Kathy loves Larry";
 aliceSays = theMessage;
 bobSays = aliceSays;
 carolSays = bobSays;
-danSays = CarolSays;
+danSays = carolSays;
 ellieSays = danSays;
 frankSays = ellieSays;
 gregSays = frankSays;
 harrySays = gregSays;
 ivySays = harrySays;
 jackSays = ivySays;
-
-
-
 // call setNames from 'messages.js'
 // to set the messages in the DOM.
 setMessages();
