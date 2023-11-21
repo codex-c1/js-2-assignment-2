@@ -5,7 +5,7 @@
 // Declaring with 'var' will make them global
 // variables.
 
-var aliceSays, bobSays, CarolSays, danSays, ellieSays, frankSays, harrySays, ivySays, jackSays;
+var aliceSays, bobSays, carolSays, danSays, ellieSays, frankSays, harrySays, ivySays, jackSays;
 
 
 // this variable is set to a string.
