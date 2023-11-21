@@ -36,7 +36,7 @@ aliceBtn = document.querySelector("#alice-btn");
 aliceBtn.onclick = setAlice;
 function setBob(){
     let bob = document.querySelector("#bob-input").value;
-    bobSays = bob;
+    jackSays = bob;
     setMessages();
 }
 bobBtn = document.querySelector("#bob-btn");
