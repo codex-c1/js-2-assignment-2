@@ -15,8 +15,25 @@ schoolBulletin = {
 }
 
 alicesBulletin = schoolBulletin;
+alicesBulletin.message = "hi";
 bobsBulletin = alicesBulletin;
 carolsBulletin = bobsBulletin;
+dansBulletin = carolsBulletin;
+elliesBulletin = dansBulletin;
+franksBulletin = elliesBulletin;
+gregsBulletin = franksBulletin;
+gregsBulletin.message = "oh no";
+harrysBulletin = gregsBulletin;
+ivysBulletin = harrysBulletin;
+
+jacksBulletin = ivysBulletin;
+bobsBulletin.message = "Lets Go!";
+function setMessage(){
+   ivysBulletin.message = document.querySelector("#input-message").value;
+   setBulletins();
+}
+inputBtn = document.querySelector("#input-btn");
+inputBtn.onclick = setMessage;
 
 
 // call setNames from 'messages.js'

@@ -1,7 +1,3 @@
-# Game of telephone
-
-## Introduction
-
 In this assignment, you will get practice with assigning variables with values and references.
 
 There are 10 people in the game of telephone. Each person has a variable in JavaScript, and a `span` in HTML. The variable will be called `nameSays` (for example `aliceSays`, or `bobSays`). If you set the variable of the person then the person's message will be set in the DOM. (The DOM will be updated by the function `setMessages` located in `messages.js`).
@@ -44,3 +40,4 @@ Now move on to the school bulletin.
 ### Bonus for School Bulletin
 
 * Add a text input that can change the message. (This will change all the messages. Why?)
+Because you are changing a single objects value not multiple objects. Therefore the last line that changes the message will be the message shown.
