@@ -17,6 +17,14 @@ schoolBulletin = {
 alicesBulletin = schoolBulletin;
 bobsBulletin = alicesBulletin;
 carolsBulletin = bobsBulletin;
+dansBulletin = carolsBulletin;
+elliesBulletin = dansBulletin;
+franksBulletin = elliesBulletin;
+gregsBulletin = franksBulletin;
+harrysBulletin = gregsBulletin;
+ivysBulletin = harrysBulletin;
+jacksBulletin = ivysBulletin;
+
 
 
 // call setNames from 'messages.js'
