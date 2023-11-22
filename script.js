@@ -6,7 +6,7 @@
 
 var aliceSays,
   bobSays,
-  CarolSays,
+  carolSays,
   danSays,
   ellieSays,
   frankSays,
@@ -31,4 +31,28 @@ jackSays = ivySays;
 
 // call setNames from 'messages.js'
 // to set the messages in the DOM.
+setMessages();
+
+let aliceBtn;
+aliceBtn = document.querySelector("#alice-button");
+
+function tellsAlice() {
+  aliceSays = "Lucy loves Ricky";
+  aliceElm = document.querySelector("#alice-says");
+  aliceElm.textContent = aliceSays;
+}
+aliceBtn.onclick = tellsAlice;
+
+//* Bob's Button *//
+
+let bobBtn;
+bobBtn = document.querySelector("#bob-button");
+
+function tellsBob() {
+  bobSays = "Sally loves Shroder";
+  bobElm = document.querySelector("#bob-says");
+  bobElm.textContent = bobSays;
+}
+bobBtn.onclick = tellsBob;
+
 setMessages();
