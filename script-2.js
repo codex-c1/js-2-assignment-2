@@ -38,8 +38,9 @@ ivysBulletin = harrysBulletin;
 jacksBulletin = ivysBulletin;
 
 carolsBulletin.message = "Ghosts Win!";
-
 // Changed carlosBulletine message and it changed all of them/
+gregsBulletin.message = "Saints win... Finally!";
+// changed gregs message and it changed everyones message.
 
 // call setNames from 'messages.js'
 // to set the messages in the DOM.
