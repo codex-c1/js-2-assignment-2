@@ -22,10 +22,6 @@ schoolBulletin = {
   message: "Cougars Win!",
 };
 
-alicesBulletin = {
-  message: "Sox Win!",
-};
-
 alicesBulletin = schoolBulletin;
 bobsBulletin = alicesBulletin;
 carolsBulletin = bobsBulletin;
@@ -37,10 +33,24 @@ harrysBulletin = gregsBulletin;
 ivysBulletin = harrysBulletin;
 jacksBulletin = ivysBulletin;
 
+alicesBulletin = {
+  message: "Sox Win!",
+};
+
 carolsBulletin.message = "Ghosts Win!";
 // Changed carlosBulletine message and it changed all of them/
 gregsBulletin.message = "Saints win... Finally!";
 // changed gregs message and it changed everyones message.
+
+function setNewMessage() {
+  let message, inputElm;
+  inputElm = document.querySelector("#new-message");
+  message = inputElm.value;
+  schoolBulletin.message = message;
+}
+
+let msgBtn = document.querySelector("#msg-button");
+msgBtn.onclick = setNewMessage;
 
 // call setNames from 'messages.js'
 // to set the messages in the DOM.
