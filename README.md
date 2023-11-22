@@ -40,3 +40,4 @@ Now move on to the school bulletin.
 ### Bonus for School Bulletin
 
 * Add a text input that can change the message. (This will change all the messages. Why?)
+Because you are changing a single objects value not multiple objects. Therefore the last line that changes the message will be the message shown.
