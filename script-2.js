@@ -42,16 +42,16 @@ carolsBulletin.message = "Ghosts Win!";
 gregsBulletin.message = "Saints win... Finally!";
 // changed gregs message and it changed everyones message.
 
-function setNewBulletin() {
-  let inputElm, message;
-  inputElm = document.querySelector("#new-message");
-  message = inputElm.value;
-  schoolBulletin.message = message;
-}
+// function setNewMessage() {
+//   let inputElm, message;
+//   inputElm = document.querySelector("#new-message");
+//   message = inputElm.value;
+//   schoolBulletin.message = message;
+// }
 
-let msgBtn;
-msgBtn = document.querySelector("#msg-button");
-msgBtn.onclick = setNewBulletin;
+// let msgBtn;
+// msgBtn = document.querySelector("#msg-button");
+// msgBtn.onclick = setNewMessage;
 
 // call setNames from 'messages.js'
 // to set the messages in the DOM.
